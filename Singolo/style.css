@@ -1,0 +1,64 @@
+body {
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+    }
+    .header {
+        background-color: #2d303a;
+    }
+
+
+body {
+    margin: 0;
+}
+
+.nav {
+    max-width:950px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    height: 90px;
+    padding:0 10px;
+}
+.logo {
+    float: left;
+     margin-top: 30px;
+     font-size: 1.3em;
+}
+
+.links {
+    float: right;
+    margin-top: 42px;
+     font-size: 0.8em;
+     color: #44495b
+}
+.salmon {
+    color: #f06c64
+    
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.banner {
+    background-color: #f06c64;
+    text-align: center
+ 
+    
+    
+}
+.banner img {
+    width:100%;
+    max-width:950px;
+    
+    
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background-color:red;
+    }
+}
